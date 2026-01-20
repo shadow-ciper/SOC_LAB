@@ -1,0 +1,62 @@
+From: docusign@docus1gn-notifications.com
+To: contracts@company.com
+Subject: Please DocuSign: Contract Agreement from Johnson & Associates
+Date: Wed, 17 Jan 2026 10:07:19 +0000
+Message-ID: <20260117100719.doc.88423@docus1gn-notifications.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="----=_DocuSign_Boundary"
+X-Mailer: DocuSign Mailer v3.2
+DKIM-Signature: v=1; a=rsa-sha256; d=docus1gn-notifications.com; s=default
+
+------=_DocuSign_Boundary
+Content-Type: text/plain; charset=UTF-8
+
+Please review and sign: Contract Agreement from Johnson & Associates
+View Document: http://docusign-cdn.xyz/envelope/view/9f7e2a1b
+
+------=_DocuSign_Boundary
+Content-Type: text/html; charset=UTF-8
+
+<html>
+<body>
+<div style="max-width: 650px; font-family: Arial;">
+<table width="100%" cellpadding="0" cellspacing="0" style="background: #ffe5e5; padding: 15px;">
+<tr><td>
+<img src="http://156.146.56.123/assets/docusign-logo.png" width="180" alt="DocuSign">
+</td></tr>
+</table>
+
+<div style="padding: 30px; background: white;">
+<h2 style="color: #333;">Please review and sign your document</h2>
+
+<p><b>From:</b> Michael Johnson (mjohnson@johnsonassociates.com)<br>
+<b>Subject:</b> Service Agreement - Q1 2026 Consulting Contract</p>
+
+<p>Michael Johnson has sent you a document to review and sign:</p>
+
+<div style="border: 2px solid #0077cc; padding: 20px; margin: 20px 0; background: #f5f9ff;">
+<p style="margin: 0;"><b>📄 Service_Agreement_2026_Q1.pdf</b></p>
+<p style="margin: 5px 0 0 0; color: #666;">2 pages • Expires in 3 days</p>
+</div>
+
+<p><a href="http://156.146.56.123/docusign/envelope/9f7e2a1b/authenticate" style="background: #0077cc; color: white; padding: 14px 28px; text-decoration: none; display: inline-block; font-weight: bold; border-radius: 4px;">REVIEW & SIGN DOCUMENT</a></p>
+
+<p style="color: #666; font-size: 13px; margin-top: 30px;">
+Document Security Code: DSC-9F7E-2A1B-4C8D<br>
+Envelope ID: 9f7e2a1b-3c4d-5e6f-7a8b-9c0d1e2f3a4b<br>
+IP: 156.146.56.123 | Session: docusign_web_77f2a
+</p>
+
+<hr style="border: 0; border-top: 1px solid #ddd; margin: 30px 0;">
+
+<p style="font-size: 11px; color: #999;">
+DocuSign® is a registered trademark of DocuSign, Inc.<br>
+This is an important document that requires your signature. If you did not expect this email, please contact the sender directly.
+</p>
+</div>
+
+</div>
+</body>
+</html>
+
+------=_DocuSign_Boundary--

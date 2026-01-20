@@ -1,0 +1,114 @@
+From: security-alert@bankofamerica-notify.com
+To: accountholder@company.com
+Subject: Fraud Alert: Unusual Transaction Detected on Account ****4782
+Date: Wed, 17 Jan 2026 18:44:52 +0000
+Message-ID: <20260117184452.fraud.56721@bankofamerica-notify.com>
+MIME-Version: 1.0
+Content-Type: multipart/related; boundary="----=_BofA_Alert_Boundary"
+X-Priority: 1 (Highest)
+X-MSMail-Priority: High
+Importance: High
+X-Originating-IP: [89.248.172.16]
+
+------=_BofA_Alert_Boundary
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+body { font-family: Arial, Helvetica, sans-serif; margin: 0; padding: 0; }
+.container { max-width: 600px; margin: 0 auto; background: #fff; }
+.header { background: #012169; padding: 20px; color: white; }
+.alert-box { background: #dc3545; color: white; padding: 15px; margin: 20px; border-radius: 5px; }
+.button { background: #e31837; color: white; padding: 12px 30px; text-decoration: none; display: inline-block; border-radius: 4px; font-weight: bold; }
+</style>
+</head>
+<body>
+<div class="container">
+<div class="header">
+<h1 style="margin: 0;">Bank of America</h1>
+<p style="margin: 5px 0 0 0; font-size: 14px;">Fraud Protection Services</p>
+</div>
+
+<div style="padding: 30px;">
+<div class="alert-box">
+<h2 style="margin: 0 0 10px 0;">🚨 FRAUD ALERT</h2>
+<p style="margin: 0;">We have detected suspicious activity on your account.</p>
+</div>
+
+<p>Dear Valued Customer,</p>
+
+<p>Our fraud detection system has flagged the following transaction for review:</p>
+
+<table border="1" cellpadding="8" style="border-collapse: collapse; width: 100%; margin: 20px 0;">
+<tr style="background: #f8f9fa;">
+<td><b>Transaction Date:</b></td>
+<td>January 17, 2026 - 6:32 PM EST</td>
+</tr>
+<tr>
+<td><b>Amount:</b></td>
+<td style="color: #dc3545; font-weight: bold;">$2,847.50</td>
+</tr>
+<tr style="background: #f8f9fa;">
+<td><b>Merchant:</b></td>
+<td>ELECTRONIC STORE - HONG KONG</td>
+</tr>
+<tr>
+<td><b>Location:</b></td>
+<td>Hong Kong, China</td>
+</tr>
+<tr style="background: #f8f9fa;">
+<td><b>Card Ending:</b></td>
+<td>****4782</td>
+</tr>
+</table>
+
+<p><b>This transaction has been temporarily held pending your verification.</b></p>
+
+<p>To confirm whether you authorized this transaction, please log in to your account immediately:</p>
+
+<p style="text-align: center; margin: 30px 0;">
+<a href="http://89.248.172.16/bankofamerica/secure-login/verify-transaction?token=8f9a0b1c2d3e4f5a" class="button">VERIFY TRANSACTION NOW</a>
+</p>
+
+<p style="background: #fff3cd; padding: 15px; border-left: 4px solid #ffc107;">
+<b>⏱️ Time Sensitive:</b> You have 2 hours to respond. If we don't hear from you, this transaction will be processed and your card may be locked for security purposes.
+</p>
+
+<p>If you did not attempt this transaction, please contact us immediately at 1-800-432-1000.</p>
+
+<p style="margin-top: 40px;">
+Sincerely,<br>
+<b>Bank of America Fraud Protection Team</b><br>
+Available 24/7 for your security
+</p>
+
+<hr style="border: 0; border-top: 1px solid #ddd; margin: 30px 0;">
+
+<div style="font-size: 11px; color: #666;">
+<p><b>Security Information:</b></p>
+<p>
+Alert Reference: FRD-2026-01-17-56721<br>
+Account: Checking ****4782<br>
+Alert Triggered: 2026-01-17 18:44:52 UTC<br>
+Detection Server: fraud-monitor-3.bankofamerica-notify.com<br>
+Server IP: 89.248.172.16<br>
+Session Token: bofa_fraud_8f9a0b1c2d3e4f5a6b7c8d9e
+</p>
+
+<p style="margin-top: 20px;">
+Bank of America, N.A. Member FDIC. Equal Housing Lender<br>
+This email contains important security information about your account.<br>
+© 2026 Bank of America Corporation. All rights reserved.
+</p>
+</div>
+
+</div>
+</div>
+</body>
+</html>
+
+------=_BofA_Alert_Boundary--

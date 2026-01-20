@@ -1,0 +1,42 @@
+On Mon, 15 Jan 2026 09:15:23,A phishing email impersonating paypal was recieved by victim@comapny.com
+Fortunately users didn't click the link and report it to the IT department for further analysis as stated below.
+
+INCIDENT DETAILS
+1.Incident ID: PHI-2026-01-19-001
+2.Detection Date-: Mon, 15 Jan 2026 09:15:23 
+3.Detection Method: User Report
+4.Incident type: Phishing/Credental Harvesting
+5.Severity: High
+6.Analyst: ShadowCipher
+7.Status: Resolved 
+
+
+ANALYSIS FINDING 
+1.From support@paypa1-secure.com (spoffed)
+2.Subject:Urgent: Your PayPal Account Has Been Limited
+3.Actual Sender IP:
+4.URL found: tor-exit-45[.]for-privacy[.]net
+             hxxp[://]185[.]220[.]101[.]45/paypal-verify
+5.Malicious Link:hxxp[://]185[.]220[.]101[.]45/paypal-verify
+
+ANALYSIS
+1.fake domain:(support@paypa1-secure.com)
+2.Senders IP located in Berlin
+3.No SPF/DKIM authentication
+4.Generic greeting 
+5.Urgency tactic employed 
+
+
+IOC 
+1.Malicious Domain;hxxp[://]185[.]220[.]101[.]45/paypal-verify
+2.Malicious IP address: 185[.]220[.]101[.]45
+3.Malicious Email: support@paypa1-secure.com(does not exist)
+
+
+
+IMPACT ASSESMENT 
+[09:30 UTC]: Fortunately no one clicked the email
+
+CONTAIMENT ACTION 
+null
+ 

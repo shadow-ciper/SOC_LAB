@@ -1,0 +1,42 @@
+From: billing@amaz0n-services.com
+To: customer@company.com
+Subject: Your Amazon Order #112-8847563-9921447 - Payment Failed
+Date: Tue, 16 Jan 2026 08:23:45 +0000
+Message-ID: <20260116082345.54321@amaz0n-services.com>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="----=_Part_12345"
+X-Mailer: PHPMailer 6.5.0
+
+------=_Part_12345
+Content-Type: text/html; charset=UTF-8
+
+<html>
+<body>
+<p>Hello,</p>
+
+<p>Your recent order could not be completed due to a payment processing error.</p>
+
+<p><b>Order Details:</b></p>
+<ul>
+<li>Order Number: 112-8847563-9921447</li>
+<li>Item: Sony PlayStation 5 Console</li>
+<li>Amount: $499.99</li>
+</ul>
+
+<p>Please update your payment information to avoid order cancellation:</p>
+
+<p><a href="http://45.142.212.61/amazon/billing-update?order=112-8847563-9921447">Update Payment Method</a></p>
+
+<p>This link will expire in 6 hours.</p>
+
+<p>Thank you,<br>
+Amazon Customer Service</p>
+
+<p style="font-size:9px; color:#666;">
+Server: payment-processor-7.amaz0n-services.com (45.142.212.61)<br>
+Session: amzn-sess-7f8a9b2c4d5e6f<br>
+</p>
+</body>
+</html>
+
+------=_Part_12345--

@@ -1,0 +1,367 @@
+From: security@company.com
+To: it-team@company.com
+Subject: FW: Critical Security Incident - Ransomware Detection on Network
+Date: Fri, 19 Jan 2026 14:33:27 +0000
+Message-ID: <20260119143327.sec.88392@company.com>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="----=_Security_Forward"
+X-Priority: 1 (Highest)
+X-MSMail-Priority: High
+Importance: High
+Sensitivity: Company-Confidential
+X-Mailer: Microsoft Outlook 16.0
+Thread-Topic: Critical Security Incident - Ransomware Detection on Network
+X-Originating-IP: [37.120.222.153]
+X-Microsoft-Antispam: BCL:0;
+X-Forefront-Antispam-Report: CIP:37.120.222.153;CTRY:RO;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:mail-relay.company.com;PTR:mail-relay.company.com;CAT:NONE;SFS:(13230016)(4636009)(346002)(376002);DIR:INB;
+Authentication-Results: spf=pass (sender IP is 37.120.222.153) smtp.mailfrom=company.com; dkim=pass (signature was verified) header.d=company.com; dmarc=bestguesspass action=none header.from=company.com
+Received: from mail-relay.company.com (37.120.222.153) by mx1.company.com (10.0.1.5) with Microsoft SMTP Server
+
+------=_Security_Forward
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Security Incident Report</title>
+<style type="text/css">
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Segoe UI', 'Calibri', Arial, sans-serif; background-color: #1a1a1a; color: #ffffff; }
+.wrapper { width: 100%; background-color: #1a1a1a; padding: 20px; }
+.container { max-width: 900px; margin: 0 auto; background-color: #2d2d2d; border: 2px solid #dc3545; box-shadow: 0 0 20px rgba(220, 53, 69, 0.3); }
+.header { background: linear-gradient(135deg, #dc3545 0%, #c82333 100%); padding: 25px 40px; border-bottom: 3px solid #ff4757; }
+.alert-banner { background-color: #721c24; color: #f8d7da; padding: 20px 40px; border-bottom: 2px solid #f5c6cb; }
+.content { padding: 40px; background-color: #2d2d2d; }
+.incident-box { background-color: #3d3d3d; border: 2px solid #ffc107; padding: 25px; margin: 25px 0; border-radius: 6px; }
+.threat-level-critical { background: linear-gradient(90deg, #dc3545 0%, #c82333 100%); color: white; padding: 15px 20px; border-radius: 4px; font-weight: bold; font-size: 18px; text-align: center; margin: 20px 0; text-transform: uppercase; letter-spacing: 1px; }
+.data-table { width: 100%; border-collapse: collapse; margin: 20px 0; background-color: #3d3d3d; }
+.data-table th { background-color: #495057; color: #ffffff; padding: 12px; text-align: left; border: 1px solid #6c757d; font-weight: 600; }
+.data-table td { padding: 12px; border: 1px solid #6c757d; color: #e0e0e0; }
+.data-table tr:nth-child(even) { background-color: #343a40; }
+.affected-systems { background-color: #3d0000; border-left: 6px solid #dc3545; padding: 20px; margin: 25px 0; }
+.action-button { display: inline-block; padding: 18px 40px; background: linear-gradient(135deg, #dc3545 0%, #c82333 100%); color: #ffffff !important; text-decoration: none; border-radius: 6px; font-weight: 700; font-size: 16px; margin: 25px 0; text-align: center; text-transform: uppercase; letter-spacing: 0.5px; box-shadow: 0 4px 15px rgba(220, 53, 69, 0.4); }
+.ioc-section { background-color: #1a1a1a; padding: 25px; margin: 25px 0; border: 1px solid #495057; border-radius: 4px; font-family: 'Consolas', 'Courier New', monospace; }
+.footer { background-color: #212529; padding: 30px 40px; font-size: 12px; color: #adb5bd; border-top: 2px solid #495057; }
+.code-block { background-color: #000000; color: #00ff00; padding: 15px; border: 1px solid #28a745; border-radius: 4px; font-family: 'Consolas', 'Courier New', monospace; font-size: 12px; overflow-x: auto; margin: 15px 0; }
+.critical-text { color: #ff4757; font-weight: bold; }
+.warning-text { color: #ffc107; font-weight: bold; }
+</style>
+</head>
+<body>
+<div class="wrapper">
+<div class="container">
+
+<div class="header">
+<table width="100%" cellpadding="0" cellspacing="0">
+<tr>
+<td style="vertical-align: middle;">
+<h1 style="margin: 0; font-size: 28px; color: #ffffff; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">
+🛡️ SECURITY OPERATIONS CENTER
+</h1>
+<p style="margin: 8px 0 0 0; color: #f8d7da; font-size: 14px; font-weight: 500;">
+Critical Incident Response Team • 24/7 Monitoring
+</p>
+</td>
+<td style="text-align: right; vertical-align: middle;">
+<div style="background-color: #721c24; padding: 10px 15px; border: 2px solid #f8d7da; border-radius: 4px; display: inline-block;">
+<span style="font-size: 24px; font-weight: bold;">🚨</span><br>
+<span style="font-size: 11px;">SEVERITY 1</span>
+</div>
+</td>
+</tr>
+</table>
+</div>
+
+<div class="alert-banner">
+<table width="100%" cellpadding="0" cellspacing="0">
+<tr>
+<td style="width: 50px; font-size: 36px; vertical-align: top;">⚠️</td>
+<td>
+<p style="margin: 0; font-size: 16px; font-weight: 700; color: #ffffff;">AUTOMATED SECURITY ALERT - IMMEDIATE ACTION REQUIRED</p>
+<p style="margin: 5px 0 0 0; font-size: 13px; color: #f8d7da;">
+This is an automated message from the Security Operations Center. Ransomware activity has been detected on your network infrastructure.
+</p>
+</td>
+</tr>
+</table>
+</div>
+
+<div class="content">
+
+<div class="threat-level-critical">
+🔴 THREAT LEVEL: CRITICAL - ACTIVE RANSOMWARE DETECTED
+</div>
+
+<p style="color: #ffffff; font-size: 15px; line-height: 1.7; margin-top: 0;">
+<b>IT Security Team,</b>
+</p>
+
+<p style="color: #e0e0e0; font-size: 15px; line-height: 1.7;">
+Our Endpoint Detection and Response (EDR) system has identified <span class="critical-text">active ransomware encryption processes</span> on multiple endpoints within your network. The malware appears to be a variant of the <b>LockBit 3.0</b> ransomware family and has already encrypted <span class="critical-text">127 files</span> across <span class="critical-text">3 critical servers</span>.
+</p>
+
+<div class="incident-box">
+<h3 style="margin: 0 0 15px 0; color: #ffc107; font-size: 18px;">📊 INCIDENT SUMMARY</h3>
+
+<table class="data-table">
+<tr>
+<th style="width: 40%;">Incident Parameter</th>
+<th>Details</th>
+</tr>
+<tr>
+<td><b>Incident ID:</b></td>
+<td style="color: #ff4757; font-weight: bold;">SEC-ALERT-2026-01-19-88392</td>
+</tr>
+<tr>
+<td><b>Detection Time:</b></td>
+<td>2026-01-19 14:28:15 UTC</td>
+</tr>
+<tr>
+<td><b>Threat Type:</b></td>
+<td style="color: #ff4757; font-weight: bold;">Ransomware - LockBit 3.0 Variant</td>
+</tr>
+<tr>
+<td><b>Attack Vector:</b></td>
+<td>Credential Phishing → Lateral Movement</td>
+</tr>
+<tr>
+<td><b>Initial Compromise:</b></td>
+<td>2026-01-19 11:42:00 UTC (approx.)</td>
+</tr>
+<tr>
+<td><b>Affected Systems:</b></td>
+<td style="color: #ff4757; font-weight: bold;">3 Servers, 8 Workstations</td>
+</tr>
+<tr>
+<td><b>Files Encrypted:</b></td>
+<td style="color: #ff4757; font-weight: bold;">127 files (increasing)</td>
+</tr>
+<tr>
+<td><b>Estimated Data Loss:</b></td>
+<td style="color: #ff4757; font-weight: bold;">~47.3 GB</td>
+</tr>
+<tr>
+<td><b>Network Segment:</b></td>
+<td>10.0.2.0/24 (Production Network)</td>
+</tr>
+<tr>
+<td><b>Current Status:</b></td>
+<td style="color: #ffc107; font-weight: bold;">⚠️ ACTIVE ENCRYPTION IN PROGRESS</td>
+</tr>
+</table>
+</div>
+
+<div class="affected-systems">
+<h4 style="margin: 0 0 15px 0; color: #ffffff; font-size: 16px;">🖥️ AFFECTED SYSTEMS (Priority Order)</h4>
+
+<ol style="color: #f8d7da; line-height: 1.8; margin: 0; padding-left: 20px;">
+<li><b>FILE-SERVER-01</b> (10.0.2.15) - <span class="critical-text">CRITICAL</span> - Primary file server, ~35GB encrypted</li>
+<li><b>DB-SERVER-PROD</b> (10.0.2.23) - <span class="critical-text">CRITICAL</span> - Production database server</li>
+<li><b>BACKUP-SVR-02</b> (10.0.2.44) - <span class="critical-text">CRITICAL</span> - Secondary backup server compromised</li>
+<li><b>WS-ACCOUNTING-07</b> (10.0.2.108) - <span class="warning-text">HIGH</span> - CFO workstation</li>
+<li><b>WS-HR-03</b> (10.0.2.156) - <span class="warning-text">HIGH</span> - HR department system</li>
+<li>Additional 6 workstations in various departments</li>
+</ol>
+
+<p style="margin-top: 15px; color: #f8d7da; font-size: 13px;">
+<b>⚠️ Warning:</b> The ransomware is actively spreading through SMB shares and RDP connections. Network isolation is critical.
+</p>
+</div>
+
+<h3 style="color: #ffc107; margin: 30px 0 15px 0; font-size: 18px;">🔍 INDICATORS OF COMPROMISE (IOCs)</h3>
+
+<div class="ioc-section">
+<p style="margin: 0 0 15px 0; color: #ffffff; font-weight: 600;">Malicious File Hashes (SHA-256):</p>
+<div class="code-block">
+<pre style="margin: 0; white-space: pre-wrap; word-wrap: break-word;">
+7f8a9b2c4d5e6f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a
+2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e
+9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d
+</pre>
+</div>
+
+<p style="margin: 20px 0 15px 0; color: #ffffff; font-weight: 600;">Command & Control (C2) Servers:</p>
+<div class="code-block">
+<pre style="margin: 0;">
+37.120.222.153:443 (Primary C2)
+185.220.101.67:8443 (Secondary C2)
+tor2web-gateway.onion.link/ab3k2m9x (Tor Gateway)
+</pre>
+</div>
+
+<p style="margin: 20px 0 15px 0; color: #ffffff; font-weight: 600;">Malicious Registry Keys:</p>
+<div class="code-block">
+<pre style="margin: 0; white-space: pre-wrap;">
+HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run\SystemUpdate32
+HKCU\Software\Microsoft\Windows\CurrentVersion\RunOnce\WinDefenderUpdate
+</pre>
+</div>
+
+<p style="margin: 20px 0 15px 0; color: #ffffff; font-weight: 600;">Suspicious Network Activity:</p>
+<div class="code-block">
+<pre style="margin: 0;">
+Port 445 (SMB) lateral movement detected
+Port 3389 (RDP) brute-force attempts: 847 failed logins
+Outbound connections to TOR nodes: 37.120.222.153
+DNS queries: lockbit[.]ransomware[.]tracker
+</pre>
+</div>
+
+<p style="margin: 20px 0 15px 0; color: #ffffff; font-weight: 600;">File Extensions Added:</p>
+<div class="code-block">
+<pre style="margin: 0;">
+.lockbit3
+.encrypted
+.lock
+</pre>
+</div>
+</div>
+
+<div style="background-color: #3d0000; border: 2px solid #dc3545; padding: 25px; margin: 30px 0; border-radius: 6px;">
+<h3 style="margin: 0 0 15px 0; color: #ffffff; font-size: 18px;">⚡ IMMEDIATE CONTAINMENT ACTIONS REQUIRED</h3>
+
+<p style="margin: 0 0 15px 0; color: #f8d7da; font-weight: 600;">Execute these steps IMMEDIATELY in the following order:</p>
+
+<ol style="color: #f8d7da; line-height: 1.9; padding-left: 20px; margin: 0;">
+<li><b>Network Isolation:</b> Disconnect affected systems from network (pull network cables if necessary)</li>
+<li><b>Block C2 IPs:</b> Add firewall rules to block 37.120.222.153 and 185.220.101.67</li>
+<li><b>Disable RDP:</b> Shut down Remote Desktop services on all systems immediately</li>
+<li><b>Credential Reset:</b> Force password reset for all domain accounts</li>
+<li><b>Backup Verification:</b> Verify integrity of offline backups before restoration</li>
+<li><b>EDR Quarantine:</b> Enable aggressive threat quarantine mode</li>
+<li><b>Forensic Analysis:</b> Preserve system memory dumps and logs for investigation</li>
+</ol>
+
+<p style="margin-top: 20px; color: #ffffff; font-size: 14px; background-color: #000000; padding: 15px; border-radius: 4px;">
+<b>⏰ Time Critical:</b> Based on observed encryption velocity, the entire production environment could be compromised within <span class="critical-text">2-3 hours</span> if containment actions are not executed immediately.
+</p>
+</div>
+
+<h3 style="color: #ffc107; margin: 30px 0 15px 0; font-size: 18px;">📋 ACCESS SECURITY INCIDENT PORTAL</h3>
+
+<p style="color: #e0e0e0; font-size: 15px; line-height: 1.7;">
+To access the full incident report, forensic data, and automated remediation tools, log in to the Security Incident Response Portal:
+</p>
+
+<div style="text-align: center; margin: 35px 0;">
+<a href="http://37.120.222.153/security-portal/incident/SEC-ALERT-2026-01-19-88392/authenticate" class="action-button">
+🔐 ACCESS INCIDENT RESPONSE PORTAL
+</a>
+</div>
+
+<p style="color: #e0e0e0; font-size: 13px; line-height: 1.7; background-color: #3d3d3d; padding: 15px; border-radius: 4px; border-left: 4px solid #17a2b8;">
+<b>🔒 Secure Authentication:</b> You will be prompted to authenticate using your domain credentials and MFA token. 
+The portal contains detailed forensic analysis, automated containment scripts, and direct communication channels with our incident response team.
+</p>
+
+<p style="color: #adb5bd; font-size: 13px; margin-top: 20px; font-family: 'Courier New', monospace; background-color: #1a1a1a; padding: 12px; border-radius: 4px;">
+<b>Alternative Portal URL:</b><br>
+http://37.120.222.153/security-portal/incident/SEC-ALERT-2026-01-19-88392/authenticate?session=sec_88392_incident_response
+</p>
+
+<div style="background-color: #1a1a1a; border: 1px solid #495057; padding: 20px; margin: 30px 0; border-radius: 4px;">
+<h4 style="margin: 0 0 15px 0; color: #17a2b8; font-size: 16px;">📞 EMERGENCY CONTACT INFORMATION</h4>
+
+<table style="width: 100%; color: #e0e0e0; font-size: 14px; line-height: 1.8;">
+<tr>
+<td style="padding: 5px 0;"><b>SOC Hotline:</b></td>
+<td>1-800-SEC-HELP (1-800-732-4357)</td>
+</tr>
+<tr>
+<td style="padding: 5px 0;"><b>Incident Response Team:</b></td>
+<td>incident-response@company.com</td>
+</tr>
+<tr>
+<td style="padding: 5px 0;"><b>After-Hours Emergency:</b></td>
+<td>+1-555-0177 (24/7 On-Call Team)</td>
+</tr>
+<tr>
+<td style="padding: 5px 0;"><b>Security Team Lead:</b></td>
+<td>Michael Stevens (ext. 7400)</td>
+</tr>
+</table>
+
+<p style="margin-top: 15px; color: #ffc107; font-size: 13px;">
+<b>⚠️ Important:</b> Do not attempt to decrypt files manually or pay any ransom demands without consulting the incident response team.
+</p>
+</div>
+
+<div style="background-color: #3d0000; padding: 20px; margin: 30px 0; border-radius: 4px; border: 2px solid #ff4757;">
+<p style="margin: 0; color: #ffffff; font-size: 15px; font-weight: 700; text-align: center;">
+⏳ THIS INCIDENT REQUIRES IMMEDIATE ATTENTION
+</p>
+<p style="margin: 10px 0 0 0; color: #f8d7da; font-size: 13px; text-align: center;">
+Every minute of delay increases potential data loss and system damage
+</p>
+</div>
+
+</div>
+
+<div class="footer">
+<table style="width: 100%; font-size: 12px; color: #adb5bd; margin-bottom: 20px;">
+<tr>
+<td style="padding: 3px 0;"><b>Incident ID:</b></td>
+<td>SEC-ALERT-2026-01-19-88392</td>
+</tr>
+<tr>
+<td style="padding: 3px 0;"><b>Alert Generated:</b></td>
+<td>2026-01-19 14:33:27 UTC</td>
+</tr>
+<tr>
+<td style="padding: 3px 0;"><b>Detection Source:</b></td>
+<td>EDR Agent v7.4 + Network IDS + SIEM Correlation</td>
+</tr>
+<tr>
+<td style="padding: 3px 0;"><b>Severity Classification:</b></td>
+<td style="color: #ff4757; font-weight: bold;">SEVERITY 1 - CRITICAL</td>
+</tr>
+<tr>
+<td style="padding: 3px 0;"><b>SOC Analyst:</b></td>
+<td>Automated System (AI-Enhanced Detection)</td>
+</tr>
+<tr>
+<td style="padding: 3px 0;"><b>Message ID:</b></td>
+<td>20260119143327.sec.88392@company.com</td>
+</tr>
+<tr>
+<td style="padding: 3px 0;"><b>Mail Server:</b></td>
+<td>mail-relay.company.com</td>
+</tr>
+<tr>
+<td style="padding: 3px 0;"><b>Originating IP:</b></td>
+<td>37.120.222.153</td>
+</tr>
+</table>
+
+<hr style="border: 0; border-top: 1px solid #495057; margin: 25px 0;">
+
+<p style="font-size: 11px; color: #6c757d; line-height: 1.6; margin: 0;">
+<b>CONFIDENTIAL SECURITY ALERT</b><br><br>
+
+This email contains sensitive security information and is intended only for authorized personnel within the IT Security and 
+Incident Response teams. This alert was automatically generated by our Security Operations Center monitoring systems upon 
+detection of confirmed malicious activity.<br><br>
+
+<b>Automated Response System:</b> This alert is part of our layered defense strategy and includes automated threat intelligence 
+from multiple sources including VirusTotal, AbuseIPDB, and internal threat feeds. All IOCs have been validated against known 
+threat actor infrastructure.<br><br>
+
+<b>Reporting Obligation:</b> As per company security policy and regulatory requirements, this incident must be reported to 
+executive management and may require disclosure to affected parties and regulatory authorities.<br><br>
+
+For questions about this alert or to report false positives, contact the SOC at soc@company.com<br><br>
+
+© 2026 Company Name - Security Operations Center. All rights reserved.<br>
+This is an automated security alert. Do not reply to this email address.
+</p>
+</div>
+
+</div>
+</div>
+</body>
+</html>
+
+------=_Security_Forward--

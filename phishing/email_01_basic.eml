@@ -1,0 +1,30 @@
+From: support@paypa1-secure.com
+To: victim@company.com
+Subject: Urgent: Your PayPal Account Has Been Limited
+Date: Mon, 15 Jan 2026 09:15:23 +0000
+Message-ID: <20260115091523.12345@paypa1-secure.com>
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+
+<html>
+<body>
+<p>Dear PayPal User,</p>
+
+<p>We have detected unusual activity on your account. Your account has been temporarily limited.</p>
+
+<p>To restore full access, please verify your information immediately:</p>
+
+<p><a href="http://185.220.101.45/paypal-verify/">Click Here to Verify Your Account</a></p>
+
+<p>Failure to verify within 24 hours will result in permanent account suspension.</p>
+
+<p>Thank you,<br>
+PayPal Security Team</p>
+
+<p style="font-size:8px; color:#999;">
+Transaction ID: PP-2026-447821<br>
+IP Address: 185.220.101.45<br>
+Reference: SEC-VERIFY-9447
+</p>
+</body>
+</html>
