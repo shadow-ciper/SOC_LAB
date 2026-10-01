@@ -1,84 +1,54 @@
-# 🔍 Network Forensics Lab — PsExec Hunt (CyberDefenders)
+# SOC_LAB
 
-**Platform:** CyberDefenders  
-**Category:** Network Forensics  
-**Tools Used:** Wireshark  
-**Difficulty:** Medium  
-**Status:** ✅ Solved
+Detection exercises and incident writeups. Everything here is reconstructed from
+captured or supplied evidence — pcaps and phishing emails — with the analysis
+written up step by step.
 
----
+## What is in here
 
-## 📌 Scenario
+| Path | What it is |
+|---|---|
+| `WRITEUP.md` | PsExec lateral movement investigation, 40,294-packet pcap, with the seven questions answered and the reasoning shown |
+| `WIRESHARK_FILTERS.md` | Every display filter used in that investigation, with an explanation of what each one isolates |
+| `Sample1.png` … `Sample7.png` | Packet captures backing each answer |
+| `phishing/` | 10 phishing email samples and the analysis of the first one |
 
-A PCAP file containing over 40,000 packets was provided. The goal was to trace an attacker who gained unauthorized access to a corporate network, moved laterally using PsExec over SMB, and compromised multiple internal machines — all reconstructed purely from network traffic.
+## The PsExec hunt
 
----
-
-## 🗂️ Repository Structure
-
-```
-.
-├── README.md               ← You are here
-├── writeup/
-│   └── WRITEUP.md          ← Full step-by-step investigation writeup
-├── filters/
-│   └── WIRESHARK_FILTERS.md ← All Wireshark filters used with explanations
-└── screenshots/
-    ├── Sample1.png          ← Q1: Initial SMB SYN packets from attacker
-    ├── Sample2.png          ← Q2: SMB2 Session Setup - SALES-PC hostname
-    ├── Sample3.png          ← Q3: NTLMSSP_AUTH - username ssales, host HR-PC
-    ├── Sample4.png          ← Q5/Q6: Tree Connect - IPC$ share
-    ├── Sample5.png          ← Q7: NTLM challenge - MARKETING-PC hostname
-    ├── Sample6.png          ← Q4: PSEXESVC.exe file creation
-    └── Sample7.png          ← Q5: Tree Connect - ADMIN$ share
-```
-
----
-
-## 🧠 Key Concepts Demonstrated
-
-- SMB/SMB2 protocol analysis
-- NTLM authentication flow and field extraction
-- PsExec lateral movement detection
-- NetBIOS name resolution for hostname identification
-- Wireshark display filter construction
-- Attack chain reconstruction from raw PCAP
-
----
-
-## ⚡ Attack Chain Summary
+An attacker reached a corporate network, authenticated over SMB/NTLM, and moved
+laterally with PsExec. The chain, reconstructed from traffic alone:
 
 ```
 Attacker (10.0.0.130)
-        │
-        │ SMB Port 445 — Initial Access
-        ▼
-    SALES-PC (10.0.0.133)
-        │ Authenticated as user: ssales (from HR-PC)
-        │ PsExec: ADMIN$ → dropped PSEXESVC.exe
-        │ IPC$ → SCM communication
-        │
-        │ Lateral Movement
-        ▼
-    MARKETING-PC (10.0.0.131)
-        │ PsExec repeated
-        ▼
-    [Further Compromise]
+  SMB/445  ->  SALES-PC (10.0.0.133)
+    authenticated as ssales (credential sourced from HR-PC)
+    PSEXESVC.exe dropped via ADMIN$ share
+  ->  MARKETING-PC via IPC$ then ADMIN$
 ```
 
----
+Techniques covered: SMB2 analysis, NTLM authentication flow, NetBIOS name
+resolution for hostname identification, PsExec detection, and attack-chain
+reconstruction from raw packets.
 
-## 🛠️ Tools
+## The phishing set
 
-| Tool | Purpose |
-|------|---------|
-| Wireshark | Primary PCAP analysis and packet filtering |
+Ten `.eml` files spanning credential harvesting, brand impersonation
+(PayPal, Microsoft, Amazon, DocuSign, Dropbox, Office 365), an internal HR lure,
+a bank fraud attempt, a CEO fraud BEC, and a multi-stage ransomware lure. These
+are the standard commercial phishing-emulation categories, written to be
+defensible in a SOC context.
 
----
+The first is analysed in `phishing/REPORTS/email_01_basic_reports`, following the
+structure in `phishing_playbook.txt` — sender spoofing, the Tor exit node in the
+link, and user-report detection.
 
-## 📚 References
+## Honest limitations
 
-- [CyberDefenders](https://cyberdefenders.org)
-- [Wireshark SMB2 Display Filters](https://www.wireshark.org/docs/dfref/s/smb2.html)
-- [Microsoft NTLM Authentication Protocol](https://docs.microsoft.com/en-us/windows/win32/secauthn/microsoft-ntlm)
-- [PsExec — Sysinternals](https://docs.microsoft.com/en-us/sysinternals/downloads/psexec)
+- **Lab material.** The pspec hunt is a CyberDefenders exercise, not a real
+  incident. Lab pcaps are clean by construction; real ones are not.
+- **Only 1 of 10 phishing emails is written up.** The other nine are samples with
+  no analysis attached.
+- **No tooling.** These are writeups and manual Wireshark filters. No detection
+  rules, no automation — that gap is what
+  [threat-hunter-toolkit](https://github.com/shadow-ciper/threat-hunter-toolkit)
+  was built to close.
